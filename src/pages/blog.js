@@ -68,7 +68,7 @@ export default function Blog() {
                     />
 
                     <div className="justify-top items-right lg:space-x-10 sm:space-x-10 space-x-4 text-black mt-16 text-xl underline">
-                        <Link href="/index">HOME</Link>
+                        <Link href="/index">index</Link>
                         <Link href="/blog">BLOG</Link>
                         <Link href="/personal">MY LIFE</Link>
                     </div>
