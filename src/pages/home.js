@@ -49,7 +49,7 @@ export default function Home() {
           />
 
           <div className="justify-top items-right lg:space-x-10 sm:space-x-10 space-x-4 text-white mt-10 text-xl underline">
-            <Link href="/index">HOME</Link>
+            <Link href="/home">HOME</Link>
             <Link href="/blog">BLOG</Link>
             <Link href="/personal">MY LIFE</Link>
           </div>
