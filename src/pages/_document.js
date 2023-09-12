@@ -14,8 +14,8 @@ export default function Document() {
         <div className="flex flex-col justify-center items-center lg:h-[1400px] sm:h-[400px] h-[225px] w-[100%]
         bg-fixed bg-contain" style={{ backgroundImage: "url(/../mainbg.jpg)" }}>
           <img
-            src="/profile.jpg"
-            alt="Image 1"
+            src="/profile1.jpg"
+            alt="Profile 1"
             className="rounded-full lg:w-32 lg:h-32 sm:w-24 sm:h-24 h-16 w-16 border-4 border-white"
             width="50"
             height="50"
