@@ -39,7 +39,7 @@ export default function Home() {
       <Head>
         {/* header */}
         <div className="flex flex-col justify-center items-center lg:h-[1400px] sm:h-[400px] h-[225px] w-[100%]
-        bg-fixed bg-contain" style={{ backgroundImage: "url(/mainbg.JPG)" }}>
+        bg-fixed bg-contain" style={{ backgroundImage: "url（/images/mainbg.JPG)" }}>
           <img
             src="/profile.jpg"
             alt="Image 1"
