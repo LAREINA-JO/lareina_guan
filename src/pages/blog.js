@@ -9,6 +9,8 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import { createTheme } from '@mui/material/styles';
+import { ThemeProvider } from '@mui/material/styles';
 import { useState, useRef } from 'react';
 import { useTheme } from '@mui/material/styles';
 import CardMedia from '@mui/material/CardMedia';
@@ -27,6 +29,8 @@ import SkipNextIcon from '@mui/icons-material/SkipNext';
 
   Text Color:
     Skills: violet-800
+
+     className="lg:text-5xl sm:text-2xl font-mono text-white lg:m-10 sm:m-8"
 */}
 
 const inter = Inter({ subsets: ["latin"] });
@@ -39,6 +43,34 @@ const inter = Inter({ subsets: ["latin"] });
 //     >
 //     </Box>
 // );
+
+const theme = createTheme({
+    typography: {
+        title1: {
+            fontFamily: 'Courier New',
+            fontSize: '3rem',
+            fontWeight: 'bold',
+            color: '#FFFFFF',
+            marginTop: '2rem',
+            marginLeft: '2rem',
+        },
+        subtitle1: {
+            fontFamily: 'Courier New',
+            fontSize: '1rem',
+            color: '#FFFFFF',
+            marginLeft: '2rem',
+        },
+        button: {
+            color: '#FFFFFF',
+            font: 'Courier New',
+            fontSize: '1rem',
+            marginLeft: '2rem',
+            hover: {
+                fontStyle: 'underline',
+            },
+        },
+    },
+});
 
 
 export default function Blog() {
@@ -106,38 +138,41 @@ export default function Blog() {
 
 
             <main className="lg:pl-[40%] pb-16 sm:px-40 px-16">
-                <Card className="w-[500px] h-[333px] mb-24 bg-cover" style={{ backgroundImage: "url(/cat2.jpg)" }}>
-                    <CardContent>
-                        <Typography variant="h5" component="div" className="lg:text-5xl sm:text-2xl font-mono text-white lg:m-10 sm:m-8">
-                            {/* be{bull}nev{bull}o{bull}lent */}
-                            Brainstormings
-                        </Typography>
-                        <Typography variant="body2" className="lg:mx-10 sm:mx-8 lg:mt-10 sm:mt-8 lg:text-base font-mono text-white">
-                            A few messy little thoughts
-                            Write them down as they come to mind
-                            <br />
-                        </Typography>
-                    </CardContent>
-                    <CardActions>
-                        <Button size="small" className="mx-10 my-4 text-sm font-mono text-white hover:underline">Learn More</Button>
-                    </CardActions>
-                </Card>
+                <ThemeProvider theme={theme}>
+                    <Card className="w-[500px] h-[333px] mb-24 bg-cover" style={{ backgroundImage: "url(/cat2.jpg)" }}>
+                        <CardContent>
+                            <Typography variant="title1" component="div">
+                                Brainstormings
+                            </Typography>
+                            <Typography variant="subtitle1">
+                                A few messy little thoughts
+                                Write them down as they come to mind
+                                <br />
+                            </Typography>
+                        </CardContent>
+                        <CardActions>
+                            <Button variant="detail1">Learn More</Button>
+                        </CardActions>
 
-                <Card className="w-[500px] h-[333px] mb-24 bg-cover" style={{ backgroundImage: "url(/cat1.jpg)" }}>
-                    <CardContent>
-                        <Typography variant="h5" component="div" className="lg:text-5xl sm:text-2xl font-mono text-white lg:m-10 sm:m-8">
-                            {/* be{bull}nev{bull}o{bull}lent */}
-                            Blogs
-                        </Typography>
-                        <Typography variant="body2" className="lg:mx-10 sm:mx-8 lg:mt-10 sm:mt-8 lg:text-base font-mono text-white">
-                            Daily feelings and thoughts
-                            <br />
-                        </Typography>
-                    </CardContent>
-                    <CardActions>
-                        <Button size="small" className="mx-10 my-4 text-sm font-mono text-white hover:underline">Learn More</Button>
-                    </CardActions>
-                </Card>
+                    </Card>
+                </ThemeProvider>
+                <ThemeProvider theme={theme}>
+                    <Card className="w-[500px] h-[333px] mb-24 bg-cover" style={{ backgroundImage: "url(/cat1.jpg)" }}>
+                        <CardContent>
+                            <Typography variant="title1" component="div">
+                                {/* be{bull}nev{bull}o{bull}lent */}
+                                Blogs
+                            </Typography>
+                            <Typography variant="subtitle1">
+                                Daily feelings and thoughts
+                                <br />
+                            </Typography>
+                        </CardContent>
+                        <CardActions>
+                            <Button variant="detail1">Learn More</Button>
+                        </CardActions>
+                    </Card>
+                </ThemeProvider>
             </main>
         </>
     );
