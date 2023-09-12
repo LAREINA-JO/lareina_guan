@@ -57,24 +57,23 @@ export default function Blog() {
 
     return (
         <>
-            <Head>
-                <div className="flex flex-col justify-center items-center lg:h-[500px] sm:h-[250px] h-[125px] bg-fixed bg-white">
-                    <img
-                        src="/profile2.jpg"
-                        alt="Image 1"
-                        className="rounded-full lg:w-32 lg:h-32 sm:w-24 sm:h-24 h-16 w-16 border-4 border-black"
-                        width="50"
-                        height="50"
-                    />
+            <div className="flex flex-col justify-center items-center lg:h-[500px] sm:h-[250px] h-[125px] bg-fixed bg-white">
+                <img
+                    src="/profile2.jpg"
+                    alt="Image 1"
+                    className="rounded-full lg:w-32 lg:h-32 sm:w-24 sm:h-24 h-16 w-16 border-4 border-black"
+                    width="50"
+                    height="50"
+                />
 
-                    <div className="justify-top items-right lg:space-x-10 sm:space-x-10 space-x-4 text-black mt-16 text-xl underline">
-                        <Link href="/index">index</Link>
-                        <Link href="/blog">BLOG</Link>
-                        <Link href="/personal">MY LIFE</Link>
-                    </div>
+                <div className="justify-top items-right lg:space-x-10 sm:space-x-10 space-x-4 text-black mt-16 text-xl underline">
+                    <Link href="/">HOME</Link>
+                    <Link href="/blog">BLOG</Link>
+                    <Link href="/personal">MY LIFE</Link>
                 </div>
+            </div>
 
-                {/* <Card className="justify-center" sx={{ display: 'flex' }}>
+            {/* <Card className="justify-center" sx={{ display: 'flex' }}>
                     <Box sx={{ display: 'flex', flexDirection: 'column' }}>
                         <CardContent sx={{ flex: '1 0 auto' }}>
                             <Typography component="div" variant="h5">
@@ -104,7 +103,7 @@ export default function Blog() {
                         alt="Live from space album cover"
                     />
                 </Card> */}
-            </Head>
+
 
             <main className="lg:pl-[40%] pb-16 sm:px-40 px-16">
                 <Card className="w-[500px] h-[333px] mb-24 bg-cover" style={{ backgroundImage: "url(/cat2.JPG)" }}>
@@ -116,7 +115,7 @@ export default function Blog() {
                         <Typography variant="body2" className="lg:mx-10 sm:mx-8 lg:mt-10 sm:mt-8 lg:text-base font-mono text-white">
                             A few messy little thoughts
                             Write them down as they come to mind
-                            <br/>
+                            <br />
                         </Typography>
                     </CardContent>
                     <CardActions>
