@@ -106,7 +106,7 @@ export default function Blog() {
 
 
             <main className="lg:pl-[40%] pb-16 sm:px-40 px-16">
-                <Card className="w-[500px] h-[333px] mb-24 bg-cover" style={{ backgroundImage: "url(/cat2.JPG)" }}>
+                <Card className="w-[500px] h-[333px] mb-24 bg-cover" style={{ backgroundImage: "url(/cat2.jpg)" }}>
                     <CardContent>
                         <Typography variant="h5" component="div" className="lg:text-5xl sm:text-2xl font-mono text-white lg:m-10 sm:m-8">
                             {/* be{bull}nev{bull}o{bull}lent */}
@@ -123,7 +123,7 @@ export default function Blog() {
                     </CardActions>
                 </Card>
 
-                <Card className="w-[500px] h-[333px] mb-24 bg-cover" style={{ backgroundImage: "url(/cat1.JPG)" }}>
+                <Card className="w-[500px] h-[333px] mb-24 bg-cover" style={{ backgroundImage: "url(/cat1.jpg)" }}>
                     <CardContent>
                         <Typography variant="h5" component="div" className="lg:text-5xl sm:text-2xl font-mono text-white lg:m-10 sm:m-8">
                             {/* be{bull}nev{bull}o{bull}lent */}
