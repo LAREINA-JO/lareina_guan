@@ -33,7 +33,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
 
   return (
-    <>
+    <html className="pb-10">
       {/* header */}
       <div className="flex flex-col justify-center items-center lg:h-[1400px] sm:h-[400px] h-[225px] w-[100%]
         bg-fixed bg-contain" style={{ backgroundImage: "url(/../mainbg.jpg)" }}>
@@ -240,8 +240,6 @@ export default function Home() {
           </TimelineContent>
         </TimelineItem>
       </Timeline>
-
-
-    </>
+    </html>
   );
 }
