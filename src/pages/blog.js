@@ -42,7 +42,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 
 export default function Blog() {
-    const theme = useTheme();
+    // const theme = useTheme();
     // const [playing, setPlaying] = useState(false);
     // const audioRef = useRef();
     // const play = () => {
