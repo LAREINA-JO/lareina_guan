@@ -1,12 +1,5 @@
 // import Image from 'next/image'
 import { Inter } from "next/font/google";
-import Link from "next/link";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import PictureAsPdfIcon from "@mui/icons-material/PictureAsPdf";
-import EmailIcon from '@mui/icons-material/Email';
-import Head from "next/head";
 import * as React from 'react';
 import Divider from '@mui/material/Divider';
 import Timeline from '@mui/lab/Timeline';
@@ -36,8 +29,6 @@ export default function Home() {
 
   return (
     <>
-      
-
       <Divider variant="middle" className="lg:py-10 lg:mx-24" />
 
       <main className="lg:px-64 px-8 py-14 sm:px-32">
