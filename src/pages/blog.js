@@ -60,7 +60,7 @@ export default function Blog() {
             <Head>
                 <div className="flex flex-col justify-center items-center lg:h-[500px] sm:h-[250px] h-[125px] bg-fixed bg-white">
                     <img
-                        src="/images/profile2.jpg"
+                        src="/profile2.jpg"
                         alt="Image 1"
                         className="rounded-full lg:w-32 lg:h-32 sm:w-24 sm:h-24 h-16 w-16 border-4 border-black"
                         width="50"
@@ -68,9 +68,9 @@ export default function Blog() {
                     />
 
                     <div className="justify-top items-right lg:space-x-10 sm:space-x-10 space-x-4 text-black mt-16 text-xl underline">
-                        <Link href="/images/index">index</Link>
-                        <Link href="/images/blog">BLOG</Link>
-                        <Link href="/images/personal">MY LIFE</Link>
+                        <Link href="/index">index</Link>
+                        <Link href="/blog">BLOG</Link>
+                        <Link href="/personal">MY LIFE</Link>
                     </div>
                 </div>
 
@@ -100,14 +100,14 @@ export default function Blog() {
                     <CardMedia
                         component="img"
                         sx={{ width: 151 }}
-                        image="/images/Kenshi_Yonezu_-_Lemon.png"
+                        image="/Kenshi_Yonezu_-_Lemon.png"
                         alt="Live from space album cover"
                     />
                 </Card> */}
             </Head>
 
             <main className="lg:pl-[40%] pb-16 sm:px-40 px-16">
-                <Card className="w-[500px] h-[333px] mb-24 bg-cover" style={{ backgroundImage: "url（/images/cat2.JPG)" }}>
+                <Card className="w-[500px] h-[333px] mb-24 bg-cover" style={{ backgroundImage: "url(/cat2.JPG)" }}>
                     <CardContent>
                         <Typography variant="h5" component="div" className="lg:text-5xl sm:text-2xl font-mono text-white lg:m-10 sm:m-8">
                             {/* be{bull}nev{bull}o{bull}lent */}
@@ -124,7 +124,7 @@ export default function Blog() {
                     </CardActions>
                 </Card>
 
-                <Card className="w-[500px] h-[333px] mb-24 bg-cover" style={{ backgroundImage: "url（/images/cat1.JPG)" }}>
+                <Card className="w-[500px] h-[333px] mb-24 bg-cover" style={{ backgroundImage: "url(/cat1.JPG)" }}>
                     <CardContent>
                         <Typography variant="h5" component="div" className="lg:text-5xl sm:text-2xl font-mono text-white lg:m-10 sm:m-8">
                             {/* be{bull}nev{bull}o{bull}lent */}
