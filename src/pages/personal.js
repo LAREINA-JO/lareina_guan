@@ -37,7 +37,7 @@ export default function Home() {
     <>
       <div className="flex flex-col justify-center items-center lg:h-[500px] sm:h-[250px] h-[125px] bg-fixed bg-white">
         <img
-          src="/profile2.JPG"
+          src="/profile2.jpg"
           alt="Image 1"
           className="rounded-full lg:w-32 lg:h-32 sm:w-24 sm:h-24 h-16 w-16 border-4 border-black"
           width="50"
