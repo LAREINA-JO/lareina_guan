@@ -35,7 +35,7 @@ const inter = Inter({ subsets: ["latin"] });
 const theme = createTheme({
   typography: {
     timeline1: {
-      marginBottom: '50px',
+      paddingBottom: '50px',
     },
   },
 });

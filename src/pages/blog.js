@@ -64,7 +64,7 @@ const theme = createTheme({
             fontSize: '1rem',
             color: '#FFFFFF',
             marginLeft: '2rem',
-            letterSpacing: '-0.025em',
+            letterSpacing: '-0.075em',
         },
         button: {
             color: '#FFFFFF',
@@ -149,7 +149,7 @@ export default function Blog() {
 
                 {/* brainstorms and blogs cards */}
                 <ThemeProvider theme={theme}>
-                    <Card className="lg:w-[500px] lg:h-[333px] sm:w-[500px] sm:h-[333px] w-[400px] h-[300px] mb-24 bg-cover" style={{ backgroundImage: "url(/cat2.jpg)" }}>
+                    <Card className="lg:w-[500px] lg:h-[333px] sm:w-[500px] sm:h-[333px] w-[100%] h-[300px] mb-20 bg-cover" style={{ backgroundImage: "url(/cat2.jpg)" }}>
                         <CardContent>
                             <Typography variant="title1" component="div">
                                 Brainstormings
@@ -181,7 +181,7 @@ export default function Blog() {
 
 
                 <ThemeProvider theme={theme}>
-                    <Card className="lg:w-[500px] lg:h-[333px] sm:w-[500px] sm:h-[333px] w-[400px] h-[300px] mb-24 bg-cover" style={{ backgroundImage: "url(/cat1.jpg)" }}>
+                    <Card className="lg:w-[500px] lg:h-[333px] sm:w-[500px] sm:h-[333px] w-[100%] h-[300px] mb-24 bg-cover" style={{ backgroundImage: "url(/cat1.jpg)" }}>
                         <CardContent>
                             <Typography variant="title1" component="div">
                                 Blogs
