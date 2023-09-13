@@ -221,7 +221,7 @@ export default function Home() {
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent>
-              <div className="text-justify text-stone-500 lg:text-lg lg:pl-[120px] lg:pb-10 sm:pl-[60px] text-xs">
+              <div className="text-right text-stone-500 lg:text-lg lg:pl-[120px] lg:pb-10 sm:pl-[60px] text-xs">
                 Began the high school education at Tianjin Yangcun No.1 High School in September, 2015.<br />
                 Transferred to Tianjin Yinghua International School in 2016 and graduated in June, 2018.
               </div>
