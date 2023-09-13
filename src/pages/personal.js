@@ -70,7 +70,7 @@ export default function Personal() {
         <Box variant="box" sx={{ width: 1, height: 1, overflowY: 'scroll' }}>
 
           {/* fit the screen */}
-          <ImageList variant="masonry" cols={matches ? 6 : 2} gap={8}>
+          <ImageList variant="masonry" cols={matches ? 5 : 2} gap={8}>
             {itemData.map((item) => (
               <ImageListItem key={item.img}>
                 <img
