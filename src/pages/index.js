@@ -60,6 +60,7 @@ export default function Home() {
           <Link href="/">HOME</Link>
           <Link href="/blog">BLOG</Link>
           <Link href="/personal">MY LIFE</Link>
+          <Link href="/calendar">CALENDAR</Link>
         </div>
 
         <div className="text-center lg:text-4xl sm:text-2xl text-sm text-white font-serif lg:my-32 sm:my-10 my-2 lg:leading-loose sm:leading-loose lg:px-16 sm:px-8 px-4 tracking-wide">

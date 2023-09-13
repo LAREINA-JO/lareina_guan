@@ -62,6 +62,7 @@ export default function Personal() {
           <Link href="/">HOME</Link>
           <Link href="/blog">BLOG</Link>
           <Link href="/personal">MY LIFE</Link>
+          <Link href="/calendar">CALENDAR</Link>
         </div>
       </div>
 
