@@ -210,7 +210,7 @@ export default function Home() {
             </TimelineSeparator>
             <TimelineContent>
               <div className="text-justify text-stone-500 lg:text-lg lg:pr-[120px] lg:pb-10 sm:pr-[60px] text-xs">
-                Born on August 7, 2001, in Jiamusi, Heilongjiang Province, China.
+                Born on August 7, 2001, in Jiamusi, Heilongjiang Province, China.<br />
                 Named as "Rui", which means of intelligence and wisdom.
               </div>
             </TimelineContent>
@@ -222,7 +222,7 @@ export default function Home() {
             </TimelineSeparator>
             <TimelineContent>
               <div className="text-justify text-stone-500 lg:text-lg lg:pl-[120px] lg:pb-10 sm:pl-[60px] text-xs">
-                Began the high school education at Tianjin Yangcun No.1 High School in September, 2015.
+                Began the high school education at Tianjin Yangcun No.1 High School in September, 2015.<br />
                 Transferred to Tianjin Yinghua International School in 2016 and graduated in June, 2018.
               </div>
             </TimelineContent>
@@ -234,7 +234,7 @@ export default function Home() {
             </TimelineSeparator>
             <TimelineContent>
               <div className="text-justify text-stone-500 lg:text-lg lg:pr-[120px] lg:pb-10 sm:pr-[60px] text-xs">
-                Got the Bachelor of Engineering degree in Software Engineering from the University of Calgary in April, 2023.
+                Got the Bachelor of Engineering degree in Software Engineering from the University of Calgary in April, 2023.<br />
                 Admitted to the University of Toronto to pursue a Master of Engineering degree in Electrical and Computer Engineering in the same year.
               </div>
             </TimelineContent>
