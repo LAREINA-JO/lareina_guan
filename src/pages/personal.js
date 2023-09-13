@@ -68,7 +68,7 @@ export default function Personal() {
 
       <div className="text-center lg:mb-16 leading-loose">
         <p className="text-4xl font-bold space-x-2">Welcome to My Life</p>
-        <p className="text-xs italic">but not too welcome</p>
+        <p className="text-xs italic">but not be too closed</p>
         <p className="text-lg">欢迎走近我的世界</p>
       </div>
 
