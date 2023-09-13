@@ -130,6 +130,7 @@ export default function Home() {
           University of Toronto
         </span>
         .
+        <br />
       </div>
       <Divider variant="middle" className="lg:py-10 lg:mx-24" />
 
@@ -145,6 +146,7 @@ export default function Home() {
             University of Calgary
           </span>
           &nbsp;with distinct.
+          <br />
         </div>
 
         {/* skills */}
@@ -178,6 +180,7 @@ export default function Home() {
             Web Development
           </span>
           &nbsp;and I have a strong desire to learn more about them.
+          <br />
         </div>
 
         {/* 编瞎话 */}
@@ -189,6 +192,7 @@ export default function Home() {
           I have a BSc in Software Engineering from the University of Calgary,
           which gives me a strong background in software engineering.
           This academic journey has developed a solid understanding of software development principles and best practices.
+          <br />
         </div>
 
         {/* 展望未来+编瞎话 */}
@@ -197,6 +201,7 @@ export default function Home() {
           I enjoy tackling complex challenges and finding innovative solutions.
           I am committed to delivering high-quality code and constantly learning,
           which makes me very suitable for this position.
+          <br />
         </div>
       </main>
 
@@ -209,7 +214,7 @@ export default function Home() {
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent>
-              <div className="text-justify text-stone-500 lg:text-lg lg:pr-[120px] lg:pb-10 sm:pr-[60px] text-xs">
+              <div className="text-left text-stone-500 lg:text-lg lg:pr-[120px] lg:pb-10 sm:pr-[60px] text-xs">
                 Born on August 7, 2001, in Jiamusi, Heilongjiang Province, China.<br />
                 Named as "Rui", which means of intelligence and wisdom.
               </div>
@@ -233,7 +238,7 @@ export default function Home() {
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent>
-              <div className="text-justify text-stone-500 lg:text-lg lg:pr-[120px] lg:pb-10 sm:pr-[60px] text-xs">
+              <div className="text-left text-stone-500 lg:text-lg lg:pr-[120px] lg:pb-10 sm:pr-[60px] text-xs">
                 Got the Bachelor of Engineering degree in Software Engineering from the University of Calgary in April, 2023.<br />
                 Admitted to the University of Toronto to pursue a Master of Engineering degree in Electrical and Computer Engineering in the same year.
               </div>
