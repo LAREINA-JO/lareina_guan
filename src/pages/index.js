@@ -13,6 +13,9 @@ import TimelineSeparator from '@mui/lab/TimelineSeparator';
 import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
+import Typography from '@mui/material/Typography';
+import { createTheme } from '@mui/material/styles';
+import { ThemeProvider } from '@mui/material/styles';
 
 
 
@@ -28,6 +31,14 @@ import TimelineDot from '@mui/lab/TimelineDot';
 */}
 
 const inter = Inter({ subsets: ["latin"] });
+
+const theme = createTheme({
+  typography: {
+    timeline1: {
+      marginBottom: '50px',
+    },
+  },
+});
 
 
 export default function Home() {
@@ -157,7 +168,7 @@ export default function Home() {
           <span className="text-violet-800">React</span>,&nbsp;
           <span className="text-violet-800">Node.js</span>,&nbsp;
           <span className="text-violet-800">MySQL</span>, etc.
-          Tmyefore, I have a strong interest in&nbsp;
+          Therefore, I have a strong interest in&nbsp;
           <span className="underline decoration-sky-400 font-bold">
             Software Development
           </span>
@@ -189,57 +200,59 @@ export default function Home() {
       </main>
 
       {/* timeline */}
-      <Timeline position="alternate" className="pb-16 lg:pt-10">
-        <TimelineItem>
-          <TimelineSeparator>
-            <TimelineDot variant="outlined" />
-            <TimelineConnector />
-          </TimelineSeparator>
-          <TimelineContent>
-            <div className="text-justify text-stone-500 lg:text-lg lg:pr-[120px] lg:pb-10 sm:pr-[60px] text-xs">
-              I entered the world on August 7, 2001, in Jiamusi,
-              a city situated in the Heilongjiang Province of China.
-              Prior to my birth, my parents carefully perused the dictionary to select the name "Rui" for me, which means of intelligence and wisdom.
-            </div>
-          </TimelineContent>
-        </TimelineItem>
-        <TimelineItem>
-          <TimelineSeparator>
-            <TimelineDot variant="outlined" />
-            <TimelineConnector />
-          </TimelineSeparator>
-          <TimelineContent>
-            <div className="text-justify text-stone-500 lg:text-lg lg:pl-[120px] lg:pb-10 sm:pl-[60px] text-xs">
-              My family moved to Tianjin in 2014, and in 2015, I began my high school education at Tianjin Yangcun No.1 High School.
-              Later, I transferred to Tianjin Yinghua International School in 2016 and graduated in 2018.
-            </div>
-          </TimelineContent>
-        </TimelineItem>
-        <TimelineItem>
-          <TimelineSeparator>
-            <TimelineDot variant="outlined" />
-            <TimelineConnector />
-          </TimelineSeparator>
-          <TimelineContent>
-            <div className="text-justify text-stone-500 lg:text-lg lg:pr-[120px] lg:pb-10 sm:pr-[60px] text-xs">
-              In 2023, I got my Bachelor of Engineering degree in Software Engineering from the University of Calgary.
-              In the same year, I was admitted to the University of Toronto to pursue a Master of Engineering degree in Electrical and Computer Engineering.
-            </div>
-          </TimelineContent>
-        </TimelineItem>
-        <TimelineItem>
-          <TimelineSeparator>
-            <TimelineDot variant="outlined" />
-            <TimelineConnector />
-          </TimelineSeparator>
-          <TimelineContent>
-            <div className="text-right text-stone-500 lg:text-lg lg:pl-[120px] lg:pb-10 sm:pl-[60px] text-xs">
-              Life is like a box of chocolates, you never know what you're gonna get.<br />
-              I'm embarking on a new journey in life, wishing for smooth sailing and a bright future ahead...
-            </div>
-          </TimelineContent>
-        </TimelineItem>
-      </Timeline>
+      <ThemeProvider theme={theme}>
+        <Timeline position="alternate" variant="timeline1">
+          <TimelineItem>
+            <TimelineSeparator>
+              <TimelineDot variant="outlined" />
+              <TimelineConnector />
+            </TimelineSeparator>
+            <TimelineContent>
+              <div className="text-justify text-stone-500 lg:text-lg lg:pr-[120px] lg:pb-10 sm:pr-[60px] text-xs">
+                I entered the world on August 7, 2001, in Jiamusi,
+                a city situated in the Heilongjiang Province of China.
+                Prior to my birth, my parents carefully perused the dictionary to select the name "Rui" for me, which means of intelligence and wisdom.
+              </div>
+            </TimelineContent>
+          </TimelineItem>
+          <TimelineItem>
+            <TimelineSeparator>
+              <TimelineDot variant="outlined" />
+              <TimelineConnector />
+            </TimelineSeparator>
+            <TimelineContent>
+              <div className="text-justify text-stone-500 lg:text-lg lg:pl-[120px] lg:pb-10 sm:pl-[60px] text-xs">
+                My family moved to Tianjin in 2014, and in 2015, I began my high school education at Tianjin Yangcun No.1 High School.
+                Later, I transferred to Tianjin Yinghua International School in 2016 and graduated in 2018.
+              </div>
+            </TimelineContent>
+          </TimelineItem>
+          <TimelineItem>
+            <TimelineSeparator>
+              <TimelineDot variant="outlined" />
+              <TimelineConnector />
+            </TimelineSeparator>
+            <TimelineContent>
+              <div className="text-justify text-stone-500 lg:text-lg lg:pr-[120px] lg:pb-10 sm:pr-[60px] text-xs">
+                In 2023, I got my Bachelor of Engineering degree in Software Engineering from the University of Calgary.
+                In the same year, I was admitted to the University of Toronto to pursue a Master of Engineering degree in Electrical and Computer Engineering.
+              </div>
+            </TimelineContent>
+          </TimelineItem>
+          <TimelineItem>
+            <TimelineSeparator>
+              <TimelineDot variant="outlined" />
+              <TimelineConnector />
+            </TimelineSeparator>
+            <TimelineContent>
+              <div className="text-right text-stone-500 lg:text-lg lg:pl-[120px] lg:pb-10 sm:pl-[60px] text-xs">
+                Life is like a box of chocolates, you never know what you're gonna get.<br />
+                I'm embarking on a new journey in life, wishing for smooth sailing and a bright future ahead...
+              </div>
+            </TimelineContent>
+          </TimelineItem>
+        </Timeline>
+      </ThemeProvider>
     </>
   );
 }

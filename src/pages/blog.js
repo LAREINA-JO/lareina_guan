@@ -48,7 +48,7 @@ const theme = createTheme({
     typography: {
         title1: {
             fontFamily: 'Courier New',
-            fontSize: '3rem',
+            fontSize: '2rem',
             fontWeight: 'bold',
             color: '#FFFFFF',
             marginTop: '2rem',
@@ -64,7 +64,8 @@ const theme = createTheme({
             color: '#FFFFFF',
             font: 'Courier New',
             fontSize: '1rem',
-            marginLeft: '2rem',
+            marginLeft: '1.5rem',
+            marginTop: '1rem',
             hover: {
                 fontStyle: 'underline',
             },
@@ -137,39 +138,56 @@ export default function Blog() {
                 </Card> */}
 
 
-            <main className="lg:pl-[40%] pb-16 sm:px-40 px-16">
+            <main className="lg:pl-[40%] py-16 sm:px-40">
                 <ThemeProvider theme={theme}>
-                    <Card className="w-[500px] h-[333px] mb-24 bg-cover" style={{ backgroundImage: "url(/cat2.jpg)" }}>
+                    <Card className="lg:w-[500px] lg:h-[333px] sm:w-[500px] sm:h-[333px] w-[420px] h-[300px] mb-24 bg-cover" style={{ backgroundImage: "url(/cat2.jpg)" }}>
                         <CardContent>
                             <Typography variant="title1" component="div">
                                 Brainstormings
                             </Typography>
                             <Typography variant="subtitle1">
                                 A few messy little thoughts
+                                <br />
+                                Like some daily mode
+                                <br />
                                 Write them down as they come to mind
+                                <br />
+                                Nothing valuable
                                 <br />
                             </Typography>
                         </CardContent>
                         <CardActions>
-                            <Button variant="detail1">Learn More</Button>
+                            <Button variant="detail1">
+                                <a
+                                    target="_blank" 
+                                    href="https://fishy-vermicelli-782.notion.site/Brainstorms-Public-9c8a552a54f64bf9ad3e15d20cdce7b3?pvs=4" 
+                                    rel="noopener noreferrer" 
+                                    className="flex flex-col items-center">
+                                    Learn More
+                                </a>
+                            </Button>
                         </CardActions>
 
                     </Card>
                 </ThemeProvider>
                 <ThemeProvider theme={theme}>
-                    <Card className="w-[500px] h-[333px] mb-24 bg-cover" style={{ backgroundImage: "url(/cat1.jpg)" }}>
+                    <Card className="lg:w-[500px] lg:h-[333px] sm:w-[500px] sm:h-[333px] w-[420px] h-[300px] mb-24 bg-cover" style={{ backgroundImage: "url(/cat1.jpg)" }}>
                         <CardContent>
                             <Typography variant="title1" component="div">
-                                {/* be{bull}nev{bull}o{bull}lent */}
                                 Blogs
                             </Typography>
                             <Typography variant="subtitle1">
-                                Daily feelings and thoughts
-                                <br />
+                                Some thoughts on my life
+                                <br/>
+                                <br/>
+                                <br/>
+                                <br/>
                             </Typography>
                         </CardContent>
                         <CardActions>
-                            <Button variant="detail1">Learn More</Button>
+                            <Button variant="detail1">
+                                <Link href="/bloglist">Learn More</Link>
+                            </Button>
                         </CardActions>
                     </Card>
                 </ThemeProvider>
