@@ -210,9 +210,8 @@ export default function Home() {
             </TimelineSeparator>
             <TimelineContent>
               <div className="text-justify text-stone-500 lg:text-lg lg:pr-[120px] lg:pb-10 sm:pr-[60px] text-xs">
-                I entered the world on August 7, 2001, in Jiamusi, Heilongjiang Province, China.
-                Prior to my birth, my parents carefully perused the dictionary to select the name "Rui" for me, 
-                which means of intelligence and wisdom.
+                Born on August 7, 2001, in Jiamusi, Heilongjiang Province, China.
+                Named as "Rui", which means of intelligence and wisdom.
               </div>
             </TimelineContent>
           </TimelineItem>
@@ -223,8 +222,8 @@ export default function Home() {
             </TimelineSeparator>
             <TimelineContent>
               <div className="text-justify text-stone-500 lg:text-lg lg:pl-[120px] lg:pb-10 sm:pl-[60px] text-xs">
-                My family moved to Tianjin in 2014, and in 2015, I began my high school education at Tianjin Yangcun No.1 High School.
-                Later, I transferred to Tianjin Yinghua International School in 2016 and graduated in 2018.
+                Began the high school education at Tianjin Yangcun No.1 High School in September, 2015.
+                Transferred to Tianjin Yinghua International School in 2016 and graduated in June, 2018.
               </div>
             </TimelineContent>
           </TimelineItem>
@@ -235,8 +234,8 @@ export default function Home() {
             </TimelineSeparator>
             <TimelineContent>
               <div className="text-justify text-stone-500 lg:text-lg lg:pr-[120px] lg:pb-10 sm:pr-[60px] text-xs">
-                In 2023, I got my Bachelor of Engineering degree in Software Engineering from the University of Calgary.
-                In the same year, I was admitted to the University of Toronto to pursue a Master of Engineering degree in Electrical and Computer Engineering.
+                Got the Bachelor of Engineering degree in Software Engineering from the University of Calgary in April, 2023.
+                Admitted to the University of Toronto to pursue a Master of Engineering degree in Electrical and Computer Engineering in the same year.
               </div>
             </TimelineContent>
           </TimelineItem>
@@ -248,7 +247,7 @@ export default function Home() {
             <TimelineContent>
               <div className="text-right text-stone-500 lg:text-lg lg:pl-[120px] lg:pb-10 sm:pl-[60px] text-xs">
                 Life is like a box of chocolates, you never know what you're gonna get.<br />
-                I'm embarking on a new journey in life, wishing for smooth sailing and a bright future ahead...
+                Still embarking on a new journey in life, wishing for smooth sailing and a bright future ahead...
               </div>
             </TimelineContent>
           </TimelineItem>
