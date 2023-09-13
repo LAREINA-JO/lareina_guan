@@ -65,6 +65,12 @@ export default function Personal() {
         </div>
       </div>
 
+      <div className="text-center lg:mb-16 leading-loose">
+        <p className="text-4xl font-bold space-x-2">Welcome to My Life</p>
+        <p className="text-xs italic">but not too welcome</p>
+        <p className="text-lg">欢迎走近我的世界</p>
+      </div>
+
       {/* Images List */}
       <ThemeProvider theme={theme}>
         <Box variant="box" sx={{ width: 1, height: 1, overflowY: 'scroll' }}>
