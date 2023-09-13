@@ -208,7 +208,7 @@ export default function Home() {
             </TimelineSeparator>
             <TimelineContent>
               <div className="text-justify text-stone-500 lg:text-lg lg:pr-[120px] lg:pb-10 sm:pr-[60px] text-xs">
-                I entered the world on August 7, 2001, in Jiamusi, Heilongjiang Province of China.
+                I entered the world on August 7, 2001, in Jiamusi, Heilongjiang Province, China.
                 Prior to my birth, my parents carefully perused the dictionary to select the name "Rui" for me, 
                 which means of intelligence and wisdom.
               </div>
