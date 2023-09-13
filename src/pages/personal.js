@@ -107,7 +107,7 @@ const itemData = [
     img: '/lifeimages/52.JPG',
     title: 'image52',
   }, {
-    img: '/lifeimages/51.jpeg',
+    img: '/lifeimages/51.JPEG',
     title: 'image51',
   }, {
     img: '/lifeimages/50.jpg',
