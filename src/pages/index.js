@@ -53,7 +53,7 @@ export default function Home() {
         <img
           src="/profile1.jpg"
           alt="Profile 1"
-          className="rounded-full lg:w-32 lg:h-32 sm:w-24 sm:h-24 h-16 w-16 border-4 border-white"
+          className="rounded-full lg:w-32 lg:h-32 sm:w-24 sm:h-24 h-16 w-16 lg:border-4 sm:border-4 border-2 border-white"
           width="50"
           height="50"
         />
