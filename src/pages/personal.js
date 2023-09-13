@@ -44,7 +44,7 @@ function srcset(image, size, rows = 1, cols = 1) {
 
 
 export default function Personal() {
-  const matches = useMediaQuery('(min-width:400px)');
+  const matches = useMediaQuery('(min-width:600px)');
 
   return (
     <>
