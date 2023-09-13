@@ -90,7 +90,7 @@ export default class DemoApp extends React.Component {
 
                         // Personal
                         { title: 'Cat Vaccination (17:15)', date: '2023-09-25', color: 'purple' },
-                        { title: 'Deyunshe (19:30)' , date: '2023-09-30', color: 'purple' },
+                        { title: 'Deyunshe (19:30 - 22:30)' , date: '2023-09-30', color: 'purple' },
 
                         // Birthday
                         { title: 'BD - Birthday', date: '2024-08-07', color: 'pink' },
