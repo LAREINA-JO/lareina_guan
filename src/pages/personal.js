@@ -102,25 +102,25 @@ const itemData = [
     img: '/lifeimages/58.jpg',
     title: 'image58',
   },{
-    img: '/lifeimages/57.JPG',
+    img: '/lifeimages/57.jpg',
     title: 'image57',
   },{
-    img: '/lifeimages/56.JPG',
+    img: '/lifeimages/56.jpg',
     title: 'image56',
   }, {
-    img: '/lifeimages/55.JPG',
+    img: '/lifeimages/55.jpg',
     title: 'image55',
   }, {
-    img: '/lifeimages/54.JPG',
+    img: '/lifeimages/54.jpg',
     title: 'image54',
   }, {
-    img: '/lifeimages/53.JPG',
+    img: '/lifeimages/53.jpg',
     title: 'image53',
   }, {
-    img: '/lifeimages/52.JPG',
+    img: '/lifeimages/52.jpg',
     title: 'image52',
   }, {
-    img: '/lifeimages/51.JPEG',
+    img: '/lifeimages/51.jpeg',
     title: 'image51',
   }, {
     img: '/lifeimages/50.jpg',
@@ -129,49 +129,49 @@ const itemData = [
     img: '/lifeimages/49.jpg',
     title: 'image49',
   }, {
-    img: '/lifeimages/48.JPG',
+    img: '/lifeimages/48.jpg',
     title: 'image48',
   }, {
-    img: '/lifeimages/47.JPEG',
+    img: '/lifeimages/47.jpeg',
     title: 'image47',
   }, {
-    img: '/lifeimages/46.JPG',
+    img: '/lifeimages/46.jpg',
     title: 'image46',
   }, {
-    img: '/lifeimages/45.JPG',
+    img: '/lifeimages/45.jpg',
     title: 'image45',
   }, {
-    img: '/lifeimages/44.JPG',
+    img: '/lifeimages/44.jpg',
     title: 'image44',
   }, {
-    img: '/lifeimages/43.JPG',
+    img: '/lifeimages/43.jpg',
     title: 'image43',
   }, {
-    img: '/lifeimages/42.JPG',
+    img: '/lifeimages/42.jpg',
     title: 'image42',
   }, {
-    img: '/lifeimages/41.JPG',
+    img: '/lifeimages/41.jpg',
     title: 'image41',
   }, {
-    img: '/lifeimages/40.JPG',
+    img: '/lifeimages/40.jpg',
     title: 'image40',
   }, {
-    img: '/lifeimages/39.JPG',
+    img: '/lifeimages/39.jpg',
     title: 'image39',
   }, {
-    img: '/lifeimages/38.JPG',
+    img: '/lifeimages/38.jpg',
     title: 'image38',
   }, {
-    img: '/lifeimages/37.JPG',
+    img: '/lifeimages/37.jpg',
     title: 'image37',
   }, {
     img: '/lifeimages/36.jpg',
     title: 'image36',
   }, {
-    img: '/lifeimages/35.JPG',
+    img: '/lifeimages/35.jpg',
     title: 'image35',
   }, {
-    img: '/lifeimages/34.JPG',
+    img: '/lifeimages/34.jpg',
     title: 'image34',
   }, {
     img: '/lifeimages/33.jpg',
@@ -186,91 +186,91 @@ const itemData = [
     img: '/lifeimages/30.jpg',
     title: 'image30',
   }, {
-    img: '/lifeimages/29.JPG',
+    img: '/lifeimages/29.jpg',
     title: 'image29',
   }, {
-    img: '/lifeimages/28.JPG',
+    img: '/lifeimages/28.jpg',
     title: 'image28',
   }, {
-    img: '/lifeimages/27.JPG',
+    img: '/lifeimages/27.jpg',
     title: 'image27',
   }, {
-    img: '/lifeimages/26.JPEG',
+    img: '/lifeimages/26.jpeg',
     title: 'image26',
   }, {
-    img: '/lifeimages/25.JPEG',
+    img: '/lifeimages/25.jpeg',
     title: 'image25',
   }, {
-    img: '/lifeimages/24.JPEG',
+    img: '/lifeimages/24.jpeg',
     title: 'image24',
   }, {
-    img: '/lifeimages/23.JPG',
+    img: '/lifeimages/23.jpg',
     title: 'image23',
   }, {
-    img: '/lifeimages/22.JPG',
+    img: '/lifeimages/22.jpg',
     title: 'image22',
   }, {
-    img: '/lifeimages/21.JPG',
+    img: '/lifeimages/21.jpg',
     title: 'image21',
   }, {
-    img: '/lifeimages/20.JPG',
+    img: '/lifeimages/20.jpg',
     title: 'image20',
   }, {
-    img: '/lifeimages/19.JPG',
+    img: '/lifeimages/19.jpg',
     title: 'image19',
   }, {
-    img: '/lifeimages/18.JPG',
+    img: '/lifeimages/18.jpg',
     title: 'image18',
   }, {
     img: '/lifeimages/17.jpeg',
     title: 'image17',
   }, {
-    img: '/lifeimages/16.JPG',
+    img: '/lifeimages/16.jpg',
     title: 'image16',
   }, {
     img: '/lifeimages/15.jpeg',
     title: 'image15',
   }, {
-    img: '/lifeimages/14.JPG',
+    img: '/lifeimages/14.jpg',
     title: 'image14',
   }, {
-    img: '/lifeimages/13.JPG',
+    img: '/lifeimages/13.jpg',
     title: 'image13',
   }, {
-    img: '/lifeimages/12.JPG',
+    img: '/lifeimages/12.jpg',
     title: 'image12',
   }, {
-    img: '/lifeimages/11.JPG',
+    img: '/lifeimages/11.jpg',
     title: 'image11',
   }, {
-    img: '/lifeimages/10.JPEG',
+    img: '/lifeimages/10.jpeg',
     title: 'image10',
   }, {
-    img: '/lifeimages/9.JPG',
+    img: '/lifeimages/9.jpg',
     title: 'image9',
   }, {
-    img: '/lifeimages/8.JPG',
+    img: '/lifeimages/8.jpg',
     title: 'image8',
   }, {
-    img: '/lifeimages/7.JPEG',
+    img: '/lifeimages/7.jpeg',
     title: 'image7',
   }, {
-    img: '/lifeimages/6.JPG',
+    img: '/lifeimages/6.jpg',
     title: 'image6',
   }, {
-    img: '/lifeimages/5.JPG',
+    img: '/lifeimages/5.jpg',
     title: 'image5',
   }, {
-    img: '/lifeimages/4.JPG',
+    img: '/lifeimages/4.jpg',
     title: 'image4',
   }, {
-    img: '/lifeimages/3.JPG',
+    img: '/lifeimages/3.jpg',
     title: 'image3',
   }, {
-    img: '/lifeimages/2.JPG',
+    img: '/lifeimages/2.jpg',
     title: 'image2',
   }, {
-    img: '/lifeimages/1.JPG',
+    img: '/lifeimages/1.jpg',
     title: 'image1',
   },
 
