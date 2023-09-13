@@ -1,9 +1,7 @@
 // import Image from 'next/image'
 import { Inter } from "next/font/google";
 import Link from "next/link";
-import Head from "next/head";
 import * as React from 'react';
-import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
@@ -11,13 +9,17 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import { createTheme } from '@mui/material/styles';
 import { ThemeProvider } from '@mui/material/styles';
-import { useState, useRef } from 'react';
-import { useTheme } from '@mui/material/styles';
-import CardMedia from '@mui/material/CardMedia';
-import IconButton from '@mui/material/IconButton';
-import SkipPreviousIcon from '@mui/icons-material/SkipPrevious';
-import PlayArrowIcon from '@mui/icons-material/PlayArrow';
-import SkipNextIcon from '@mui/icons-material/SkipNext';
+// import { useState, useRef } from 'react';
+// import { useTheme } from '@mui/material/styles';
+// import CardMedia from '@mui/material/CardMedia';
+// import IconButton from '@mui/material/IconButton';
+// import SkipPreviousIcon from '@mui/icons-material/SkipPrevious';
+// import PlayArrowIcon from '@mui/icons-material/PlayArrow';
+// import SkipNextIcon from '@mui/icons-material/SkipNext';
+// import Box from '@mui/material/Box';
+// import Head from "next/head";
+
+
 
 
 {/* 
@@ -44,6 +46,9 @@ const inter = Inter({ subsets: ["latin"] });
 //     </Box>
 // );
 
+
+
+{/* style for the brainstorms and blogs cards */}
 const theme = createTheme({
     typography: {
         title1: {
@@ -59,6 +64,7 @@ const theme = createTheme({
             fontSize: '1rem',
             color: '#FFFFFF',
             marginLeft: '2rem',
+            letterSpacing: '-0.025em',
         },
         button: {
             color: '#FFFFFF',
@@ -90,7 +96,8 @@ export default function Blog() {
 
     return (
         <>
-            <div className="flex flex-col justify-center items-center lg:h-[500px] sm:h-[250px] h-[125px] bg-fixed bg-white">
+            {/* header */}
+            <div className="flex flex-col justify-center items-center lg:h-[500px] sm:h-[250px] h-[200px] bg-fixed bg-white">
                 <img
                     src="/profile2.jpg"
                     alt="Image 1"
@@ -99,7 +106,7 @@ export default function Blog() {
                     height="50"
                 />
 
-                <div className="justify-top items-right lg:space-x-10 sm:space-x-10 space-x-4 text-black mt-16 text-xl underline">
+                <div className="justify-top items-right lg:space-x-10 sm:space-x-10 space-x-4 lg:mt-10 sm:mt-10 mt-4 lg:text-2xl sm:text-xl text-sm underline">
                     <Link href="/">HOME</Link>
                     <Link href="/blog">BLOG</Link>
                     <Link href="/personal">MY LIFE</Link>
@@ -139,8 +146,10 @@ export default function Blog() {
 
 
             <main className="lg:pl-[40%] py-16 sm:px-40">
+
+                {/* brainstorms and blogs cards */}
                 <ThemeProvider theme={theme}>
-                    <Card className="lg:w-[500px] lg:h-[333px] sm:w-[500px] sm:h-[333px] w-[420px] h-[300px] mb-24 bg-cover" style={{ backgroundImage: "url(/cat2.jpg)" }}>
+                    <Card className="lg:w-[500px] lg:h-[333px] sm:w-[500px] sm:h-[333px] w-[400px] h-[300px] mb-24 bg-cover" style={{ backgroundImage: "url(/cat2.jpg)" }}>
                         <CardContent>
                             <Typography variant="title1" component="div">
                                 Brainstormings
@@ -159,29 +168,30 @@ export default function Blog() {
                         <CardActions>
                             <Button variant="detail1">
                                 <a
-                                    target="_blank" 
-                                    href="https://fishy-vermicelli-782.notion.site/Brainstorms-Public-9c8a552a54f64bf9ad3e15d20cdce7b3?pvs=4" 
-                                    rel="noopener noreferrer" 
+                                    target="_blank"
+                                    href="https://fishy-vermicelli-782.notion.site/Brainstorms-Public-9c8a552a54f64bf9ad3e15d20cdce7b3?pvs=4"
+                                    rel="noopener noreferrer"
                                     className="flex flex-col items-center">
                                     Learn More
                                 </a>
                             </Button>
                         </CardActions>
-
                     </Card>
                 </ThemeProvider>
+
+
                 <ThemeProvider theme={theme}>
-                    <Card className="lg:w-[500px] lg:h-[333px] sm:w-[500px] sm:h-[333px] w-[420px] h-[300px] mb-24 bg-cover" style={{ backgroundImage: "url(/cat1.jpg)" }}>
+                    <Card className="lg:w-[500px] lg:h-[333px] sm:w-[500px] sm:h-[333px] w-[400px] h-[300px] mb-24 bg-cover" style={{ backgroundImage: "url(/cat1.jpg)" }}>
                         <CardContent>
                             <Typography variant="title1" component="div">
                                 Blogs
                             </Typography>
                             <Typography variant="subtitle1">
                                 Some thoughts on my life
-                                <br/>
-                                <br/>
-                                <br/>
-                                <br/>
+                                <br />
+                                <br />
+                                <br />
+                                <br />
                             </Typography>
                         </CardContent>
                         <CardActions>

@@ -32,11 +32,12 @@ import TimelineDot from '@mui/lab/TimelineDot';
 const inter = Inter({ subsets: ["latin"] });
 
 
-export default function Home() {
+export default function Bloglist() {
 
   return (
     <>
-      <div className="flex flex-col justify-center items-center lg:h-[500px] sm:h-[250px] h-[125px] bg-fixed bg-white">
+    {/* header */}
+      <div className="flex flex-col justify-center items-center lg:h-[500px] sm:h-[250px] h-[200px] bg-fixed bg-white">
         <img
           src="/profile2.jpg"
           alt="Image 1"
@@ -45,7 +46,7 @@ export default function Home() {
           height="50"
         />
 
-        <div className="justify-top items-right lg:space-x-10 sm:space-x-10 space-x-4 text-black mt-16 text-xl underline">
+        <div className="justify-top items-right lg:space-x-10 sm:space-x-10 space-x-4 lg:mt-10 sm:mt-10 mt-4 lg:text-2xl sm:text-xl text-sm underline">
           <Link href="/">HOME</Link>
           <Link href="/blog">BLOG</Link>
           <Link href="/personal">MY LIFE</Link>

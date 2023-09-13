@@ -56,19 +56,17 @@ export default function Home() {
           height="50"
         />
 
-        <div className="justify-top items-right lg:space-x-10 sm:space-x-10 space-x-4 text-white mt-10 text-xl underline">
+        <div className="justify-top items-right lg:space-x-10 sm:space-x-10 space-x-4 text-white lg:mt-10 sm:mt-10 mt-4 lg:text-2xl sm:text-xl text-sm underline">
           <Link href="/">HOME</Link>
           <Link href="/blog">BLOG</Link>
           <Link href="/personal">MY LIFE</Link>
         </div>
 
-        <div className="text-center lg:text-4xl sm:text-2xl text-white font-serif lg:my-32 sm:my-10 my-2 leading-loose lg:px-16 sm:px-8 px-4 tracking-wide">
+        <div className="text-center lg:text-4xl sm:text-2xl text-sm text-white font-serif lg:my-32 sm:my-10 my-2 lg:leading-loose sm:leading-loose lg:px-16 sm:px-8 px-4 tracking-wide">
           "Life was like a box of chocolates, you never know what you're gonna get."<br />
-          <span className="lg:text-xl/5 sm:text-lg text-white font-serif italic font-thin">----&nbsp;&nbsp;&nbsp;Forrest Gump</span>
+          <span className="lg:text-xl/5 sm:text-lg text-xs text-white font-serif italic font-thin leading-loose">----&nbsp;&nbsp;&nbsp;Forrest Gump</span>
         </div>
       </div>
-
-      {/* navigation */}
 
 
       {/* external links */}
@@ -165,7 +163,7 @@ export default function Home() {
           <span className="text-violet-800">HTML</span>,&nbsp;
           <span className="text-violet-800">CSS</span>,&nbsp;
           <span className="text-violet-800">JavaScript</span>,&nbsp;
-          <span className="text-violet-800">React</span>,&nbsp;
+          <span className="text-violet-800">React</span>,<br/>
           <span className="text-violet-800">Node.js</span>,&nbsp;
           <span className="text-violet-800">MySQL</span>, etc.
           Therefore, I have a strong interest in&nbsp;
