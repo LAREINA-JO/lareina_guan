@@ -73,6 +73,13 @@ export default class DemoApp extends React.Component {
                         { title: 'CSC2221 Assignment 5', date: '2023-11-17', color: 'red' },
                         { title: 'CSC2221 Assignment 6', date: '2023-12-01', color: 'red' },
 
+                        // ECE1747 Assignment
+                        { title: 'ECE1747 Assignment 1', date: '2023-10-27', color: 'red' },
+                        { title: 'ECE1747 Assignment 2', date: '2023-11-24', color: 'red' },
+
+                        // ECE1747 Final Project
+                        { title: 'Presentation - ECE1747 Final Project', date: '2023-12-01', color: 'gray' },
+
                         
                         // Reading Week
                         { title: 'RW - Reading Week', date: '2023-11-04', color: 'green' },
