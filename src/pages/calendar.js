@@ -7,6 +7,7 @@ export default class DemoApp extends React.Component {
     render() {
         return (
             <>
+                <title>Lareina's Calendar</title>
                 {/* header */}
                 <div className="flex flex-col justify-center items-center lg:h-[500px] sm:h-[250px] h-[200px] bg-fixed bg-white">
                     <img

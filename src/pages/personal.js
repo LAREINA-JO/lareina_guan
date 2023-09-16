@@ -48,6 +48,7 @@ export default function Personal() {
 
   return (
     <>
+      <title>Lareina's Wonderful (but not so wonderful) Life</title>
       {/* header */}
       <div className="flex flex-col justify-center items-center lg:h-[500px] sm:h-[250px] h-[200px] bg-fixed bg-white">
         <img
