@@ -30,9 +30,11 @@ export default class DemoApp extends React.Component {
                     initialView="dayGridMonth"
                     events={[
                         // Fall 2023
+                        // ECE1724 Leture
+                        { title: 'ECE1724 (09:00 - 11:00)', date: '2023-09-22', time: '09:00', color: '#fda4af' },
+
+
                         // CSC2125 Leture
-                        { title: 'CSC2125 (12:00 - 14:00)', date: '2023-09-01', time: '12:00', color: '#94a3b8' },
-                        { title: 'CSC2125 (12:00 - 14:00)', date: '2023-09-08', time: '12:00', color: '#94a3b8' },
                         { title: 'CSC2125 (12:00 - 14:00)', date: '2023-09-15', time: '12:00', color: '#94a3b8' },
                         { title: 'CSC2125 (12:00 - 14:00)', date: '2023-09-22', time: '12:00', color: '#94a3b8' },
                         { title: 'CSC2125 (12:00 - 14:00)', date: '2023-09-29', time: '12:00', color: '#94a3b8' },
@@ -48,8 +50,6 @@ export default class DemoApp extends React.Component {
                         
 
                         // CSC2221 Leture
-                        { title: 'CSC2221 (14:00 - 17:00)', date: '2023-09-01', time: '14:00', color: '#fdba74' },
-                        { title: 'CSC2221 (14:00 - 17:00)', date: '2023-09-08', time: '14:00', color: '#fdba74' },
                         { title: 'CSC2221 (14:00 - 17:00)', date: '2023-09-15', time: '14:00', color: '#fdba74' },
                         { title: 'CSC2221 (14:00 - 17:00)', date: '2023-09-22', time: '14:00', color: '#fdba74' },
                         { title: 'CSC2221 (14:00 - 17:00)', date: '2023-09-29', time: '14:00', color: '#fdba74' },
@@ -67,8 +67,6 @@ export default class DemoApp extends React.Component {
 
 
                         // ECE1747 Leture
-                        { title: 'ECE1747 (17:30 - 20:30)', date: '2023-09-01', time: '17:30', color: '#c4b5fd' },
-                        { title: 'ECE1747 (17:30 - 20:30)', date: '2023-09-08', time: '17:30', color: '#c4b5fd' },
                         { title: 'ECE1747 (17:30 - 20:30)', date: '2023-09-15', time: '17:30', color: '#c4b5fd' },
                         { title: 'ECE1747 (17:30 - 20:30)', date: '2023-09-22', time: '17:30', color: '#c4b5fd' },
                         { title: 'ECE1747 (17:30 - 20:30)', date: '2023-09-29', time: '17:30', color: '#c4b5fd' },
