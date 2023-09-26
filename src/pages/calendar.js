@@ -32,6 +32,7 @@ export default class DemoApp extends React.Component {
                         // Fall 2023
                         // ECE1724 Leture
                         { title: 'ECE1724 (09:00 - 11:00)', date: '2023-09-22', time: '09:00', color: '#fda4af' },
+                        { title: 'ECE1724 (09:00 - 11:00)', date: '2023-09-29', time: '09:00', color: '#fda4af' },
 
 
                         // CSC2125 Leture
@@ -97,6 +98,8 @@ export default class DemoApp extends React.Component {
                         { title: 'CSC2125 Assignment 1', date: '2023-09-28', color: '#7f1d1d' },
 
                         // ECE1747 Final Project
+                        { title: 'Presentation + Abstract - ECE1747 Paper#8', date: '2023-10-13', color: '#7f1d1d' },
+                        { title: 'Abstract - ECE1747 Paper#23', date: '2023-11-24', color: '#7f1d1d' },
                         { title: 'Presentation - ECE1747 Final Project', date: '2023-12-01', color: 'gray' },
 
                         
@@ -116,6 +119,7 @@ export default class DemoApp extends React.Component {
 
                         // Personal
                         { title: 'Cat Vaccination (17:15)', date: '2023-09-25', color: '#bef264' },
+                        { title: 'Cat Vaccination (17:15)' , date: '2023-10-23', color: '#bef264' },
                         { title: 'Deyunshe (20:00 - 23:30)' , date: '2023-09-30', color: '#bef264' },
 
                         // Birthday
