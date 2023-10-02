@@ -90,7 +90,7 @@ export default function Blog() {
     // };
 
     // const pause = () => {
-    //     setPlaying(false);
+    //     setPlaying(false);   
     //     audioRef.current.pause();
     // };
 

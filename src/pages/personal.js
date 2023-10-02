@@ -100,6 +100,33 @@ export default function Personal() {
 {/* image list */ }
 const itemData = [
   {
+    img: '/lifeimages/86.jpg',
+    title: 'image86',
+  },{
+    img: '/lifeimages/85.jpg',
+    title: 'image85',
+  },{
+    img: '/lifeimages/84.jpg',
+    title: 'image84',
+  },{
+    img: '/lifeimages/83.jpg',
+    title: 'image83',
+  },{
+    img: '/lifeimages/82.jpg',
+    title: 'image82',
+  },{
+    img: '/lifeimages/81.jpg',
+    title: 'image81',
+  },{
+    img: '/lifeimages/80.jpg',
+    title: 'image80',
+  },{
+    img: '/lifeimages/79.jpg',
+    title: 'image79',
+  },{
+    img: '/lifeimages/78.jpg',
+    title: 'image78',
+  },{
     img: '/lifeimages/77.jpg',
     title: 'image77',
   },{
