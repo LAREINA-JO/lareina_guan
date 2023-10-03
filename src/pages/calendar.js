@@ -84,7 +84,7 @@ export default class DemoApp extends React.Component {
                         { title: 'ECE1724 Project Phase 1', date: '2023-10-15', color: '#7f1d1d' },
                         { title: 'ECE1724 Project Phase 2', date: '2023-11-05', color: '#7f1d1d' },
                         { title: 'ECE1724 Project Phase 3 Paper', date: '2023-12-08', color: '#7f1d1d' },
-                        { title: 'ECE1724 Project Phase 3 Presentation', date: '2023-12-01', color: '#7f1d1d'},
+                        { title: 'ECE1724 Project Phase 3 Presentation', date: '2023-12-01', color: '#CD853F'},
                         { title: 'ECE1724 Project Phase 3 Documentation', date: '2023-12-08', color: '#7f1d1d'},
 
 
@@ -100,9 +100,13 @@ export default class DemoApp extends React.Component {
                         // CSC2125 Assignment
                         { title: 'CSC2125 Assignment 1', date: '2023-09-28', color: '#7f1d1d' },
                         { title: 'CSC2125 Assignment 2', date: '2023-10-12', color: '#7f1d1d' },
+                        { title: 'CSC2125 Assignment 3', date: '2023-10-26', color: '#7f1d1d' },
 
-                        // CSC2125 Paper Presentation1
+                        // CSC2125 Paper Presentation
                         { title: 'CSC2125 Paper Presentation', date: '2023-11-17', color: '#CD853F' },
+
+                        // CSC2125 Project
+                        { title: 'CSC2125 Project Proposal', date: '2023-10-13', color: '#7f1d1d' },
 
 
                         
