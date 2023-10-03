@@ -99,6 +99,7 @@ export default class DemoApp extends React.Component {
 
                         // CSC2125 Assignment
                         { title: 'CSC2125 Assignment 1', date: '2023-09-28', color: '#7f1d1d' },
+                        { title: 'CSC2125 Assignment 2', date: '2023-10-12', color: '#7f1d1d' },
 
                         // CSC2125 Paper Presentation1
                         { title: 'CSC2125 Paper Presentation', date: '2023-11-17', color: '#CD853F' },
