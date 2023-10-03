@@ -144,9 +144,9 @@ const itemData = [
   },{
     img: '/lifeimages/72.jpg',
     title: 'image72',
-  },{
-    img: '/lifeimages/71.jpg',
-    title: 'image71',
+  // },{
+  //   img: '/lifeimages/71.jpg',
+  //   title: 'image71',
   },{
     img: '/lifeimages/70.jpg',
     title: 'image70',
