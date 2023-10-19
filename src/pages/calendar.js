@@ -59,24 +59,10 @@ export default class DemoApp extends React.Component {
                         { title: 'CSC2125 (12:00 - 14:00)', date: '2023-12-08', time: '12:00', color: '#94a3b8' },
                         
 
-                        // CSC2221 Leture
-                        { title: 'CSC2221 (14:00 - 17:00)', date: '2023-09-15', time: '14:00', color: '#fdba74' },
-                        { title: 'CSC2221 (14:00 - 17:00)', date: '2023-09-22', time: '14:00', color: '#fdba74' },
-                        { title: 'CSC2221 (14:00 - 17:00)', date: '2023-09-29', time: '14:00', color: '#fdba74' },
-                        { title: 'CSC2221 (14:00 - 17:00)', date: '2023-10-06', time: '14:00', color: '#fdba74' },
-                        { title: 'CSC2221 (14:00 - 17:00)', date: '2023-10-13', time: '14:00', color: '#fdba74' },
-                        { title: 'CSC2221 (14:00 - 17:00)', date: '2023-10-20', time: '14:00', color: '#fdba74' },
-                        { title: 'CSC2221 (14:00 - 17:00)', date: '2023-10-27', time: '14:00', color: '#fdba74' },
-                        { title: 'CSC2221 (14:00 - 17:00)', date: '2023-11-03', time: '14:00', color: '#fdba74' },
-                        { title: 'CSC2221 (14:00 - 17:00)', date: '2023-11-17', time: '14:00', color: '#fdba74' },
-                        { title: 'CSC2221 (14:00 - 17:00)', date: '2023-11-24', time: '14:00', color: '#fdba74' },
-                        { title: 'CSC2221 (14:00 - 17:00)', date: '2023-12-01', time: '14:00', color: '#fdba74' },
-                        { title: 'CSC2221 (14:00 - 17:00)', date: '2023-12-08', time: '14:00', color: '#fdba74' },
-
                         
                         // ECE1724 Assignment
-                        { title: 'ECE1724 Assignment 1', date: '2023-10-13', color: '#7f1d1d' },
-                        { title: 'ECE1724 Assignment 2', date: '2023-10-27', color: '#7f1d1d' },
+                        { title: 'ECE1724 Assignment 1', date: '2023-10-15', color: '#7f1d1d' },
+                        { title: 'ECE1724 Assignment 2', date: '2023-10-26', color: '#7f1d1d' },
                         { title: 'ECE1724 Assignment 3', date: '2023-11-13', color: '#7f1d1d' },
                         { title: 'ECE1724 Assignment 4', date: '2023-11-28', color: '#7f1d1d' },
 
@@ -87,14 +73,10 @@ export default class DemoApp extends React.Component {
                         { title: 'ECE1724 Project Phase 3 Presentation', date: '2023-12-01', color: '#CD853F'},
                         { title: 'ECE1724 Project Phase 3 Documentation', date: '2023-12-08', color: '#7f1d1d'},
 
+                        // ECE1724 Midterm
+                        { title: 'ECE1724 Midterm', date: '2023-10-27', color: '#FFD700' },
 
-                        // CSC2221 Assignment
-                        { title: 'CSC2221 Assignment 1', date: '2023-09-22', color: '#7f1d1d' },
-                        { title: 'CSC2221 Assignment 2', date: '2023-10-06', color: '#7f1d1d' },
-                        { title: 'CSC2221 Assignment 3', date: '2023-10-20', color: '#7f1d1d' },
-                        { title: 'CSC2221 Assignment 4', date: '2023-11-03', color: '#7f1d1d' },
-                        { title: 'CSC2221 Assignment 5', date: '2023-11-17', color: '#7f1d1d' },
-                        { title: 'CSC2221 Assignment 6', date: '2023-12-01', color: '#7f1d1d' },
+
 
 
                         // CSC2125 Assignment
